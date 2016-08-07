@@ -5,8 +5,6 @@ import File from 'vinyl'
 import hoistImports from '.'
 
 test.cb('basic import hoisting', t => {
-  t.plan(1)
-
   let testFile = new File({
     contents: new Buffer('@import "firstImport"; css-rule {} @import "secondImport";')
   })

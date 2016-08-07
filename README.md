@@ -9,9 +9,13 @@ Moves CSS imports to the top of the file, wherever they may be located. This mod
 `hoistCssImports(options)`
 
 **options.matcher**
+
 Default: `/@import .*?;/g`
+
 The regex matching import statements. The default suits most use cases, but feel free to change this to match other css constructs.
 
 **options.delimiter**
+
 Default: `''`
+
 The delimiter appended to each import statement.

@@ -10,14 +10,14 @@ module.exports = ({matcher = /@import .*?;/g, delimiter = ''} = {}) => {
     }
 
     if (file.isStream()) {
-      return cb(new gutil.PluginError('gulp-hoist-css-imports', 'Streaming not supported'))
+      return cb(new PluginError('gulp-hoist-css-imports', 'Streaming not supported'))
     }
 
     let imports = new Set()
     let contents = file.contents.toString()
 
     let match
-    while (match = matcher.exec(contents)) {
+    while ((match = matcher.exec(contents))) {
       imports.add(match[0])
     }
 

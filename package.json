@@ -1,0 +1,32 @@
+{
+  "name": "gulp-hoist-css-imports",
+  "version": "1.0.0",
+  "description": "Hoist css imports to the beginning of the file",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/w00tmast3r/gulp-hoist-css-imports.git"
+  },
+  "keywords": [
+    "gulpplugin",
+    "css",
+    "import",
+    "hoist"
+  ],
+  "author": "Bryan Terce <bryan.terce@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/w00tmast3r/gulp-hoist-css-imports/issues"
+  },
+  "homepage": "https://github.com/w00tmast3r/gulp-hoist-css-imports#readme",
+  "devDependencies": {
+    "standard": "^7.1.2"
+  },
+  "dependencies": {
+    "gulp-util": "^3.0.7",
+    "through2": "^2.0.1"
+  }
+}

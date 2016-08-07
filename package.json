@@ -4,7 +4,7 @@
   "description": "Hoist css imports to the beginning of the file",
   "main": "index.js",
   "scripts": {
-    "test": "standard"
+    "test": "standard && ava"
   },
   "repository": {
     "type": "git",
@@ -23,7 +23,9 @@
   },
   "homepage": "https://github.com/w00tmast3r/gulp-hoist-css-imports#readme",
   "devDependencies": {
-    "standard": "^7.1.2"
+    "ava": "^0.16.0",
+    "standard": "^7.1.2",
+    "vinyl": "^1.2.0"
   },
   "dependencies": {
     "gulp-util": "^3.0.7",

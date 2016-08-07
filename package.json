@@ -1,6 +1,6 @@
 {
   "name": "gulp-hoist-css-imports",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Hoist css imports to the beginning of the file",
   "main": "index.js",
   "scripts": {
